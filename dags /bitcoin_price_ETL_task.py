@@ -80,3 +80,22 @@ def taskflow():
 
 
 taskflow()
+
+
+"""
+The decorated version of the DAG eliminates the need to explicitly instantiate the PythonOperator, has much less code and is easier to read. Notice that it also doesn't require using ti.xcom_pull and ti.xcom_push to pass data between tasks. This is all handled by the TaskFlow API when you define your task dependencies with store_data(process_data(extract_bitcoin_price())).
+
+Here are some other things to keep in mind when using decorators:
+
+For any decorated object in your DAG file, you must call them so that Airflow can register the task or DAG (e.g. dag = taskflow()).
+
+When you define a task, the task_id will default to the name of the function you decorated. If you want to change that, you can simply pass a task_id to the decorator as you did in the extract task above. Similarly, other task level parameters such as retries or pools can be defined within the decorator (see the example with retries above).
+
+You can decorate a function that is imported from another file with something like the following:
+from include.my_file import my_function
+@task
+def taskflow_func():
+    my_function()
+
+This is recommended in cases where you have lengthy Python functions since it will make your DAG file easier to read.
+"""
