@@ -1,6 +1,7 @@
 '''
-
-
+This file contains following:
+- DAG writers to focus on defining execution logic without having to worry about orchestration logic.
+- We have homes data in two different CSVs that we need to aggregate, clean, transform, and append to a reporting table. Some of these tasks are better suited to SQL, and some to Python, but we can easily combine both using astro-sdk-python functions. The DAG looks like this:
 '''
 
 from datetime import datetime
