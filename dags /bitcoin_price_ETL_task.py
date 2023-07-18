@@ -1,8 +1,8 @@
 '''
 This file contains following:
-- Traditional code snippet 
+- Traditional Operators code snippet 
 - Decorator code snippet
-
+- Combine the traditional operators with Decorators
 source : https://docs.astronomer.io/learn/airflow-decorators?tab=taskflow#how-to-use-airflow-decorators
 '''
 
