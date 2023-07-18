@@ -1,0 +1,39 @@
+[2023-07-16T05:37:41.950-0400] {processor.py:157} INFO - Started process (PID=21586) to work on /Users/pratikdomadiya/airflow/dags/simple_hello_world.py
+[2023-07-16T05:37:41.953-0400] {processor.py:826} INFO - Processing file /Users/pratikdomadiya/airflow/dags/simple_hello_world.py for tasks to queue
+[2023-07-16T05:37:41.953-0400] {logging_mixin.py:150} INFO - [2023-07-16T05:37:41.953-0400] {dagbag.py:541} INFO - Filling up the DagBag from /Users/pratikdomadiya/airflow/dags/simple_hello_world.py
+[2023-07-16T05:37:41.962-0400] {processor.py:836} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/pratikdomadiya/airflow/dags/simple_hello_world.py
+[2023-07-16T05:37:42.312-0400] {logging_mixin.py:150} INFO - [2023-07-16T05:37:42.312-0400] {manager.py:504} INFO - Created Permission View: can read on DAG:hello_world
+[2023-07-16T05:37:42.316-0400] {logging_mixin.py:150} INFO - [2023-07-16T05:37:42.316-0400] {manager.py:504} INFO - Created Permission View: can edit on DAG:hello_world
+[2023-07-16T05:37:42.319-0400] {logging_mixin.py:150} INFO - [2023-07-16T05:37:42.319-0400] {manager.py:504} INFO - Created Permission View: can delete on DAG:hello_world
+[2023-07-16T05:37:42.324-0400] {logging_mixin.py:150} INFO - [2023-07-16T05:37:42.324-0400] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-16T05:37:42.329-0400] {logging_mixin.py:150} INFO - [2023-07-16T05:37:42.329-0400] {dag.py:2763} INFO - Creating ORM DAG for hello_world
+[2023-07-16T05:37:42.333-0400] {logging_mixin.py:150} INFO - [2023-07-16T05:37:42.333-0400] {dag.py:3504} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2023-07-16T05:37:42.340-0400] {processor.py:179} INFO - Processing /Users/pratikdomadiya/airflow/dags/simple_hello_world.py took 0.390 seconds
+[2023-07-16T05:38:43.604-0400] {processor.py:157} INFO - Started process (PID=21745) to work on /Users/pratikdomadiya/airflow/dags/simple_hello_world.py
+[2023-07-16T05:38:43.607-0400] {processor.py:826} INFO - Processing file /Users/pratikdomadiya/airflow/dags/simple_hello_world.py for tasks to queue
+[2023-07-16T05:38:43.607-0400] {logging_mixin.py:150} INFO - [2023-07-16T05:38:43.607-0400] {dagbag.py:541} INFO - Filling up the DagBag from /Users/pratikdomadiya/airflow/dags/simple_hello_world.py
+[2023-07-16T05:38:43.616-0400] {processor.py:836} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/pratikdomadiya/airflow/dags/simple_hello_world.py
+[2023-07-16T05:38:43.899-0400] {logging_mixin.py:150} INFO - [2023-07-16T05:38:43.899-0400] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-16T05:38:43.906-0400] {logging_mixin.py:150} INFO - [2023-07-16T05:38:43.906-0400] {dag.py:3504} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2023-07-16T05:38:43.914-0400] {processor.py:179} INFO - Processing /Users/pratikdomadiya/airflow/dags/simple_hello_world.py took 0.311 seconds
+[2023-07-16T05:39:37.454-0400] {processor.py:157} INFO - Started process (PID=21856) to work on /Users/pratikdomadiya/airflow/dags/simple_hello_world.py
+[2023-07-16T05:39:37.456-0400] {processor.py:826} INFO - Processing file /Users/pratikdomadiya/airflow/dags/simple_hello_world.py for tasks to queue
+[2023-07-16T05:39:37.457-0400] {logging_mixin.py:150} INFO - [2023-07-16T05:39:37.457-0400] {dagbag.py:541} INFO - Filling up the DagBag from /Users/pratikdomadiya/airflow/dags/simple_hello_world.py
+[2023-07-16T05:39:37.465-0400] {processor.py:836} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/pratikdomadiya/airflow/dags/simple_hello_world.py
+[2023-07-16T05:39:37.740-0400] {logging_mixin.py:150} INFO - [2023-07-16T05:39:37.739-0400] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-16T05:39:37.747-0400] {logging_mixin.py:150} INFO - [2023-07-16T05:39:37.747-0400] {dag.py:3504} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2023-07-16T05:39:37.756-0400] {processor.py:179} INFO - Processing /Users/pratikdomadiya/airflow/dags/simple_hello_world.py took 0.302 seconds
+[2023-07-16T05:40:32.403-0400] {processor.py:157} INFO - Started process (PID=21969) to work on /Users/pratikdomadiya/airflow/dags/simple_hello_world.py
+[2023-07-16T05:40:32.407-0400] {processor.py:826} INFO - Processing file /Users/pratikdomadiya/airflow/dags/simple_hello_world.py for tasks to queue
+[2023-07-16T05:40:32.407-0400] {logging_mixin.py:150} INFO - [2023-07-16T05:40:32.407-0400] {dagbag.py:541} INFO - Filling up the DagBag from /Users/pratikdomadiya/airflow/dags/simple_hello_world.py
+[2023-07-16T05:40:32.415-0400] {processor.py:836} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/pratikdomadiya/airflow/dags/simple_hello_world.py
+[2023-07-16T05:40:32.711-0400] {logging_mixin.py:150} INFO - [2023-07-16T05:40:32.711-0400] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-16T05:40:32.719-0400] {logging_mixin.py:150} INFO - [2023-07-16T05:40:32.719-0400] {dag.py:3504} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2023-07-16T05:40:32.728-0400] {processor.py:179} INFO - Processing /Users/pratikdomadiya/airflow/dags/simple_hello_world.py took 0.325 seconds
+[2023-07-16T05:41:28.242-0400] {processor.py:157} INFO - Started process (PID=22082) to work on /Users/pratikdomadiya/airflow/dags/simple_hello_world.py
+[2023-07-16T05:41:28.244-0400] {processor.py:826} INFO - Processing file /Users/pratikdomadiya/airflow/dags/simple_hello_world.py for tasks to queue
+[2023-07-16T05:41:28.244-0400] {logging_mixin.py:150} INFO - [2023-07-16T05:41:28.244-0400] {dagbag.py:541} INFO - Filling up the DagBag from /Users/pratikdomadiya/airflow/dags/simple_hello_world.py
+[2023-07-16T05:41:28.252-0400] {processor.py:836} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/pratikdomadiya/airflow/dags/simple_hello_world.py
+[2023-07-16T05:41:28.529-0400] {logging_mixin.py:150} INFO - [2023-07-16T05:41:28.529-0400] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-16T05:41:28.537-0400] {logging_mixin.py:150} INFO - [2023-07-16T05:41:28.537-0400] {dag.py:3504} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2023-07-16T05:41:28.547-0400] {processor.py:179} INFO - Processing /Users/pratikdomadiya/airflow/dags/simple_hello_world.py took 0.306 seconds
