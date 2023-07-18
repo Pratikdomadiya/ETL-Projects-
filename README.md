@@ -32,6 +32,4 @@ To use a specific project, navigate to the project's folder and follow the instr
 ## Contributing
 Contributions to the ETL Projects repository are welcome! If you have any improvements, bug fixes, or new project ideas, feel free to submit a pull request. Make sure to follow the existing code style and provide clear documentation for your changes.
 
-## License
-
 Happy ETL processing with Airflow, Python, and PySpark! If you have any questions or need further assistance, please reach out to pratikdomadiya123@gmail.com.
