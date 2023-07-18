@@ -85,7 +85,7 @@ def example_snowflake_partial_table_with_append():
 
     # Define task dependencies
     extracted_data = extract_data(
-        homes1=homes_data1,
+        homes1=homes_data1, # By defining your task dependencies when calling the functions (for example, cleaned_data = clean_data(combined_data)), the Astro Python SDK takes care of passing all context and metadata between the tasks. The result is a DAG where you accomplished some tricky transformations without having to write a lot of Airflow code or transition between SQL and Python.
         homes2=homes_data2,
         output_table=Table(name="combined_homes_data"),
     )
