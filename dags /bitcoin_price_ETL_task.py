@@ -76,7 +76,15 @@ def taskflow():
     def store_data(data: Dict[str, float]):
         logging.info(f"Store: {data['usd']} with change {data['change']}")
 
-    store_data(process_data(extract_bitcoin_price()))
+    #Combine the traditional operators with Decorators
+    email_notification = EmailOperator( 
+        task_id="email_notification",
+        to="noreply@astronomer.io",
+        subject="dag completed",
+        html_content="the dag has finished",
+    )
+
+    store_data(process_data(extract_bitcoin_price())) >> email_notification
 
 
 taskflow()
