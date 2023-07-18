@@ -107,7 +107,7 @@ def example_snowflake_partial_table_with_append():
         target_table=Table(name="homes_reporting", conn_id=SNOWFLAKE_CONN_ID),
         columns=["sell", "list", "variable", "value"],
     )
-    record_results.set_upstream(create_results_table)
+    record_results.set_upstream(create_results_table) #set the dependencies of the task 
 
 
 example_snowflake_partial_table_with_append()
